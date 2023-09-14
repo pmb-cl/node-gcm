@@ -1,5 +1,5 @@
 {
-  "name": "node-gcm",
+  "name": "gcm-node",
   "description": "Easy interface for Google's Cloud Messaging service (now Firebase Cloud Messaging)",
   "version": "1.1.0",
   "author": "Marcus Farkas <toothlessgear@finitebox.com>",
@@ -43,8 +43,8 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/ToothlessGear/node-gcm.git",
-    "web": "http://github.com/ToothlessGear/node-gcm"
+    "url": "http://github.com/pmb-cl/node-gcm.git",
+    "web": "http://github.com/pmb-cl/node-gcm"
   },
   "keywords": [
     "google",
@@ -83,9 +83,9 @@
     "node": ">= 4"
   },
   "bugs": {
-    "url": "https://github.com/ToothlessGear/node-gcm/issues"
+    "url": "https://github.com/pmb-cl/node-gcm/issues"
   },
-  "homepage": "https://github.com/ToothlessGear/node-gcm",
+  "homepage": "https://github.com/pmb-cl/node-gcm",
   "directories": {
     "test": "test"
   },
