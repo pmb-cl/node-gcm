@@ -1,4 +1,6 @@
-# node-gcm
+# gcm-node
+
+**This is just node-gcm without the request library. For the OG, [see here](https://www.npmjs.com/package/node-gcm)**.
 
 [![Join the chat at https://gitter.im/ToothlessGear/node-gcm](https://badges.gitter.im/ToothlessGear/node-gcm.svg)](https://gitter.im/ToothlessGear/node-gcm?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![npm](https://badge.fury.io/js/node-gcm.svg)](https://www.npmjs.com/package/node-gcm)
@@ -21,7 +23,7 @@ Follow [PR #238](https://github.com/ToothlessGear/node-gcm/pull/238) to see curr
 ## Installation
 
 ```bash
-$ npm install node-gcm --save
+$ npm install gcm-node --save
 ```
 
 **Note:** This package requires Node v4.0 and newer.
@@ -39,7 +41,7 @@ If you are new to FCM you should probably look into the [documentation](https://
 According to below **Usage** reference, we could create such application:
 
 ```js
-var gcm = require('node-gcm');
+var gcm = require('gcm-node');
 
 // Set up the sender with your GCM/FCM API key (declare this once for multiple messages)
 var sender = new gcm.Sender('YOUR_API_KEY_HERE');
@@ -62,7 +64,7 @@ sender.send(message, { registrationTokens: regTokens }, function (err, response)
 ## Usage
 
 ```js
-var gcm = require('node-gcm');
+var gcm = require('gcm-node');
 
 // Create a message
 // ... with default values
@@ -251,7 +253,7 @@ To enable debug mode (print requests and responses to and from FCM),
 set the `DEBUG` environment flag when running your app (assuming you use `node app.js` to run your app):
 
 ```bash
-DEBUG=node-gcm node app.js
+DEBUG=gcm-node node app.js
 ```
 
 ## Donate
